@@ -3,36 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boutique en ligne</title>
+    <title>Bienvenue sur Ma Boutique</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Ma Boutique en Ligne</h1>
+        <h1>Bienvenue à Ma Boutique en Ligne</h1>
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Produits</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <section class="produits">
+        <section id="accueil" class="welcome">
+            <h2>Bienvenue à Notre Boutique</h2>
+            <p>Découvrez nos produits exclusifs et nos offres spéciales.</p>
+        </section>
+        <!--
+        <section id="produits" class="produits">
             <h2>Nos Produits</h2>
             <div class="produit">
                 <img src="https://via.placeholder.com/150" alt="Produit 1">
                 <h3>Produit 1</h3>
+                <p>Description du produit 1.</p>
                 <p>Prix: 10€</p>
                 <button>Ajouter au Panier</button>
             </div>
             <div class="produit">
                 <img src="https://via.placeholder.com/150" alt="Produit 2">
                 <h3>Produit 2</h3>
+                <p>Description du produit 2.</p>
                 <p>Prix: 20€</p>
                 <button>Ajouter au Panier</button>
             </div>
+        </section>
+        -->
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Pour toute question, veuillez nous contacter à <a href="mailto:contact@maboutique.com">contact@maboutique.com</a>.</p>
         </section>
     </main>
     
